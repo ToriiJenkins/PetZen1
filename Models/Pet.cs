@@ -19,9 +19,9 @@ namespace PetZen.Models
 
         public string Breed { get; set; }
 
-        public double Weight { get; set; }
+        public double? Weight { get; set; }
 
-        public DateTime DateOfBirth { get; set; }
+        public DateTime? DateOfBirth { get; set; }
 
         [Required]
         public int MealsPerDay { get; set; }
